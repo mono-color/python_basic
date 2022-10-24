@@ -1,0 +1,16 @@
+#id_list{
+    width : 500px;
+    height : 500px;
+    border : 1px solid black;
+    overflow : scroll;
+}
+
+#coin_list{
+    overflow : auto;
+    height : 700px;
+}
+
+#coin_list th{
+    position:sticky;
+    top: 10;
+}

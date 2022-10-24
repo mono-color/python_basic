@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            width : 100%;
+            border : 1px solid #444444;
+        }
+        tr:nth-child(odd) {background-color : #e6f1ff;}
+        tr:nth-child(even) {background-color : #f0f7ff;}
+        tr:hover {background-color : #ffc5c2; cursor:pointer}
+    </style>
+</head>
+<body>
+  <table>
+    <th>col</th>
+      {% for x in board %}
+      <tr><td>{{x}}</td></tr>
+      {% endfor %}
+
+  </table>
+
+</body>
+</html>
